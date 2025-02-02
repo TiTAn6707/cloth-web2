@@ -1,0 +1,26 @@
+.clothing-item {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.clothing-item:hover {
+  transform: scale(1.1);
+}
+
+.outfit-combo {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
